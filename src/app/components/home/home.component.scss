@@ -1,0 +1,28 @@
+.home {
+    .upper {
+        //background-image: url('/assets/images/undraw_couple_re_94tl.svg'); /* The image used */
+        //background-color: #cccccc; /* Used if the image is unavailable */
+        background-image: 
+            linear-gradient(
+                45deg, 
+                rgba(0, 0, 0, 0.5),
+                rgba(255, 255, 255, 0)
+            ),
+            url('/assets/images/undraw_couple_re_94tl.svg');
+        height: 75vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .profile-card {
+        background-color: #eeeeee;
+        border-radius: 1rem;
+    }
+    .day {
+        letter-spacing: 5px;
+    }
+    .btn {
+        border-radius: 1rem;
+    }
+}
+

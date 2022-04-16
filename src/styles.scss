@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/scss/bootstrap";
+@import "node_modules/ngx-bootstrap/datepicker/bs-datepicker";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Parisienne&display=swap');
+
+// theming variable
+// $lightPrimary: #C6FCE5;
+// $lightSecondary: #EBFFFA;
+// $darkPrimary: rgb(20, 28, 34);
+// $darkSecondary: #6EF3D6;
+// $borderRadius: 0.5rem;
+$fontFamily: 'Poppins', sans-serif;
+// end theming variable
+
+// generic
+body {
+    font-family: $fontFamily;
+    font-size: 1.1rem;
+}
+.hover-pointer:hover {
+    cursor: pointer;
+}
+.font-pacifico {
+    font-family: 'Pacifico', cursive;
+}
+.text-red {
+    color: #F50057;
+}
