@@ -24,5 +24,14 @@
     .btn {
         border-radius: 1rem;
     }
+    .btn-outline-danger {
+        color: #F50057 !important;
+        border-color: #F50057 !important;
+    }
+
+    .btn-outline-danger:hover {
+        color: #FFFFFF !important;
+        background-color: #F50057 !important;
+    }
 }
 
